@@ -29,7 +29,6 @@
     ],
     "props":{
       "verticalAlign": "middle",
-      "horizontalAlign": "center",
       "preventVerticalStretch": true
     }
   },
@@ -42,8 +41,8 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
+      "shipping-simulator",
+      "product-quantity"
     ]
   }
 }
