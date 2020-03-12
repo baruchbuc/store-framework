@@ -1,0 +1,34 @@
+{
+    "store.custom#about-us": {
+        "children": [
+            "flex-layout.row#abtus"
+        ]
+    },
+    "flex-layout.row#abtus": {
+        "children": [
+            "image#example",
+            "flex-layout.col#abtus"
+        ]
+    },
+    "image#example": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+        }
+    },
+    "flex-layout.col#abtus": {
+        "children": [
+            "rich-text#header",
+            "rich-text#description"
+        ]
+    },
+    "rich-text#header": {
+        "props": {
+            "text": "Sobre a FlatFlat"
+        }
+    },
+    "rich-text#description": {
+        "props": {
+            "text": "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**"
+        }
+    }
+}
